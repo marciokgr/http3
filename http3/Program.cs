@@ -27,7 +27,7 @@ services.AddW3CLogging(logging =>
 
 var app = builder.Build();
 app.UseW3CLogging(); //ativando log
-app.MapGet("/", () => "hello world");
+app.MapGet("/", () => "{\r\n  \"retorno\": \"hello world\"\r\n}");
 
 
 app.Run();

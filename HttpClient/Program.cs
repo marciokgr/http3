@@ -10,8 +10,6 @@ try
         DefaultVersionPolicy = HttpVersionPolicy.RequestVersionExact
     };
 
-    Console.WriteLine("Enviando request https://localhost:5001");
-
     using var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:5001/");
     request.Version = HttpVersion.Version30;
     request.VersionPolicy = HttpVersionPolicy.RequestVersionExact;

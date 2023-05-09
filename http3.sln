@@ -5,11 +5,16 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "http3API", "http3\http3API.csproj", "{9986EFE8-C4F7-45F2-94C8-BEF57F861D03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClient", "HttpClient\HttpClient.csproj", "{FB81258A-480F-409E-B3AA-6569D96E563A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClient", "HttpClient\HttpClient.csproj", "{FB81258A-480F-409E-B3AA-6569D96E563A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{28340FA3-7002-4E09-9693-4663CC844AEC}"
 	ProjectSection(SolutionItems) = preProject
 		http.js = http.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clientPowershell", "clientPowershell", "{2B2BA375-F76E-4B46-85EC-38FB770415F4}"
+	ProjectSection(SolutionItems) = preProject
+		client.ps = client.ps
 	EndProjectSection
 EndProject
 Global
